@@ -10,7 +10,7 @@ const app = express();
 const http = require('http');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('public'));
-app.get("/",(req,res)=>{
+app.get(url,(req,res)=>{
     res.sendFile(__dirname+"/index.html");
 })
 app.post('/',(req,res)=>{
