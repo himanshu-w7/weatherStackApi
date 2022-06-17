@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+input{
+    margin-top: 100px;
+    padding:10px;
+    text-align: center;
+    width:15%;
+    height:15%;
+    border-radius: 3px;
+    
+}
+button{
+    padding:10px;
+    background-color: aquamarine;
+    color:#fff;
+    border-radius: 3px;
+    font-size:20px;
+
+}
+button:hover{
+    background-color: black;
+}
