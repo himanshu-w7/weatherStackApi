@@ -4,7 +4,6 @@ const path = require('path');
 const fs =require('fs');
 const url=require('url');
 const ejs = require ('ejs');
-const historicalJs = require('./historical.js')
 
 const app = express();
 const http = require('http');
